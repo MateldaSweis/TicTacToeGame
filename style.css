@@ -1,0 +1,145 @@
+{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #063f40;
+  height: 100vh;
+  padding-top: 1px;
+}
+
+
+.nav {
+  position: fixed;
+  list-style-type: none;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  display: flex;
+  align-items: left;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: #063f40;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav * {
+  display: inline;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  background-color: pink;
+  color: #063f40;
+  width: 45px;
+  hegiht: 500px;
+}
+
+.nav a.active {
+  background-color: #063f40;
+  color: white;
+}
+
+.background {
+    background-color: #063f40;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.right-border{
+  border-right: .1em solid white;
+}
+
+.bottom-border{
+  border-bottom: .1em solid white;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: currentColor 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 175px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: pink;
+  color: #063f40;
+}
+
+.buttonCentered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

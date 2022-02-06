@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>TicTacToe Game</title>
+</head>
+
+<body class="game">
+  <main class="background">
+    <section>
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="game.html">Game</a>
+        <a href="about.html">About</a>
+      </div>
+      <br>
+    </section>
+
+
+  <section>
+  <div>
+    <h1> Tic Tac Toe Game: </h1>
+  </div>
+
+  <div>
+      <p id="playerTurn" style="display:block">Click start to play</p>
+      <p id="gameOver" style="display:none">Game Over! Click to play again. </p>
+  </div>
+</section>
+
+<section class="container">
+  <div class="tile right-border bottom-border" data-index="0" ></div>
+  <div class="tile right-border bottom-border" data-index="1"></div>
+  <div class="tile bottom-border" data-index="2"></div>
+  <div class="tile right-border bottom-border" data-index="3"></div>
+  <div class="tile right-border bottom-border" data-index="4"></div>
+  <div class="tile bottom-border" data-index="5"></div>
+  <div class="tile right-border" data-index="6"></div>
+  <div class="tile right-border" data-index="7"></div>
+  <div class="tile" data-index="8"></div>
+</section>
+</main>
+<script src="../TicTacToe.js"> </script>
+</body>
+</html>
